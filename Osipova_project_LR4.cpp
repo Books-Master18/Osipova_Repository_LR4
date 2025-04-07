@@ -44,7 +44,10 @@ void enterNumber(int& varLink, string label)
 }
 
 char inputFirstChar() {
-
+    char ch;
+    cout << "Введите первый символ: ";
+    cin >> ch;
+    return ch;//branch_fun_1
 }
 
 // Функция для ввода второго символа
