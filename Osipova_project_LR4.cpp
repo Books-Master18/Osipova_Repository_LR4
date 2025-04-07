@@ -59,8 +59,8 @@ void printCharAndAscii() {
 }
 
 // Функция для вывода суммы кодов ASCII
-void printAsciiSum() {
-
+void printAsciiSum(char ch1, char ch2) {
+    cout << "Сумма кодов ASCII: " << (int)ch1 + (int)ch2 << endl;
 }
 
 struct MenuItem {
