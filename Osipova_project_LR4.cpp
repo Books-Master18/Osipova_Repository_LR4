@@ -52,7 +52,10 @@ char inputFirstChar() {
 
 // Функция для ввода второго символа
 char inputSecondChar() {
-
+    char ch;
+    cout << "Введите второй символ: ";
+    cin >> ch;
+    return ch;
 }
 
 
