@@ -44,7 +44,10 @@ void enterNumber(int& varLink, string label)
 }
 
 char inputFirstChar() {
-
+    char ch;
+    cout << "Введите первый символ: ";
+    cin >> ch;
+    return ch;//branch_fun_1
 }
 
 // Функция для ввода второго символа
@@ -59,7 +62,8 @@ void printCharAndAscii(char ch) {
 }
 
 // Функция для вывода суммы кодов ASCII
-void printAsciiSum() {
+void printAsciiSum(char ch1, char ch2) {
+    cout << "Сумма кодов ASCII: " << (int)ch1 + (int)ch2 << endl;
 
 }
 
