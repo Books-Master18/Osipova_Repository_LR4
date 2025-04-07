@@ -57,13 +57,14 @@ char inputSecondChar() {
 
 
 // Функция для вывода символа и его кода ASCII
-void printCharAndAscii() {
-
+void printCharAndAscii(char ch) {
+    cout << "Символ: " << ch << ", Код ASCII: " << (int)ch << endl;
 }
 
 // Функция для вывода суммы кодов ASCII
 void printAsciiSum(char ch1, char ch2) {
     cout << "Сумма кодов ASCII: " << (int)ch1 + (int)ch2 << endl;
+
 }
 
 struct MenuItem {
